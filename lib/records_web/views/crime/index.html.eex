@@ -15,7 +15,6 @@
       <th>Longitude</th>
       <th>Month</th>
       <th>Reported by</th>
-
       <th></th>
     </tr>
   </thead>
@@ -34,12 +33,6 @@
       <td><%= crime.longitude %></td>
       <td><%= crime.month %></td>
       <td><%= crime.reported_by %></td>
-
-      <td class="text-right">
-        <span><%= link "Show", to: crime_path(@conn, :show, crime), class: "btn btn-default btn-xs" %></span>
-        <span><%= link "Edit", to: crime_path(@conn, :edit, crime), class: "btn btn-default btn-xs" %></span>
-        <span><%= link "Delete", to: crime_path(@conn, :delete, crime), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
-      </td>
     </tr>
 <% end %>
   </tbody>
