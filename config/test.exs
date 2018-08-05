@@ -11,6 +11,7 @@ config :logger, level: :warn
 
 # Configure your database
 config :records, Records.Repo,
+  sql_sandbox: true,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
   password: "postgres",

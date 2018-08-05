@@ -37,6 +37,10 @@ defmodule RecordsWeb.Endpoint do
     key: "_records_key",
     signing_salt: "J7Gcf5o2"
 
+  if Application.get_env(:your_app, :sql_sandbox) do
+    plug Phoenix.Ecto.SQL.Sandbox
+  end
+
   plug RecordsWeb.Router
 
   @doc """
