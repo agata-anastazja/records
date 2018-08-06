@@ -24,6 +24,5 @@ defmodule Records.Records.Crime do
   def changeset(crime, attrs) do
     crime
     |> cast(attrs, [:lsoa_code, :lsoa_name, :context, :crime_id, :crime_type, :falls_within, :last_outcome_category, :latitude, :location, :longitude, :month, :reported_by])
-    |> validate_required([:lsoa_code, :lsoa_name, :context, :crime_id, :crime_type, :falls_within, :last_outcome_category, :latitude, :location, :longitude, :month, :reported_by])
   end
 end
