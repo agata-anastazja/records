@@ -2,7 +2,7 @@ defmodule RecordsWeb.CrimeViewTest do
   use RecordsWeb.ConnCase, async: true
 
   defmodule FakeCrime do
-    defstruct id: 1, context: "some context", crime_id: "some crime_id", crime_type: "some crime_type", falls_within: "some falls_within", last_outcome_category: "some last_outcome_category", latitude: "120.5", location: "some location", longitude: "120.5", lsoa_code: "some lsoa_code", lsoa_name: "some lsoa_name", month: "some month", reported_by: "some reported_by"
+    defstruct id: 1, context: "some context", crime_id: "some crime_id", crime_type: "eating my cookie", falls_within: "some falls_within", last_outcome_category: "some last_outcome_category", latitude: "120.5", location: "some location", longitude: "120.5", lsoa_code: "some lsoa_code", lsoa_name: "some lsoa_name", month: "some month", reported_by: "some reported_by"
   end
 
 
