@@ -15,3 +15,5 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000/crimes`](http://localhost:4000/crimes) from your browser and see the crimes!!!
 
+
+[![Known Vulnerabilities](https://snyk.io/test/github/agata-anastazja/records/badge.svg?targetFile=assets%2Fpackage.json)](https://snyk.io/test/github/agata-anastazja/records?targetFile=assets%2Fpackage.json)
